@@ -12,7 +12,8 @@ public class Bai2 {
 
     }
     public static int Max(int[] mang) {
-        int giatriMax = mang[0];
+//        int giatriMax = mang[0];
+        int giatriMax = Integer.MIN_VALUE; //gán cho giá trị nhỏ nhất có thể
         for (int soNguyen : mang) {
             if (soNguyen > giatriMax) {
                 giatriMax = soNguyen;

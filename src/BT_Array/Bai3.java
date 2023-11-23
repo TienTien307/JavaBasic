@@ -1,5 +1,7 @@
 package BT_Array;
 
+import java.util.ArrayList;
+
 public class Bai3 {
     //3. Viết một chương trình Lặp số từ 0 đến 50. Lưu những giá trị chẵn vào 1 mảng mới. Sau đó hiển thị mảng mới đó ra
 
@@ -14,7 +16,20 @@ public class Bai3 {
         System.out.println("Mảng số chẵn từ 0 đến 50:");
         for (int so : soChan) {
             System.out.print(so + " ");
-
         }
     }
+//    public static void timSoChan(int[] arr){
+//
+//        //arraylist
+//        ArrayList<Integer> arraylist = new ArrayList<Integer>();
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] % 2 == 0) {
+//                arraylist.add(arr[i]);
+//            }
+//        }
+//        System.out.println("mang so chan: " +arraylist);
+//
+//        }
+//    }
 }

@@ -5,7 +5,7 @@ public class Bai4 {
     public static void main(String[] args) {
         int[] mangSoNguyen = {1, 5, 9, 35, 60};
 
-        int soCanKiemTra = 35;
+        int soCanKiemTra = 36;
 
         if (checkIsDisPlay(mangSoNguyen, soCanKiemTra)){
             System.out.println(soCanKiemTra + " - tồn tại trong mảng");
